@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="textview">TextView</string>
+    <string name="feedback">Feedback</string>
+    <string name="about">Services</string>
+    <string name="menu">MENU</string>
+    <string name="homeString">🏠 home</string>
+    <string name="services">Services</string>
+</resources>
