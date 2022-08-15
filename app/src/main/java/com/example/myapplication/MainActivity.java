@@ -16,7 +16,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Intent i = new Intent(getApplicationContext(), MainActivity2.class);
+        Intent contact = new Intent(getApplicationContext(), contactus.class);
         Button home = (Button) findViewById(R.id.button2);
+        Button contactUs = (Button) findViewById(R.id.button3);
+        contactUs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(contact);
+            }
+        });
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
